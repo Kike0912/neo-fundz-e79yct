@@ -1,0 +1,8 @@
+{
+  "name": "NeoFundz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "18ad93ef"
+}
