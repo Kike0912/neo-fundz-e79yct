@@ -1,0 +1,248 @@
+
+ion-content {
+    --background: #ffffff;
+    --box-sizing: border-box;
+  }
+  
+  .header-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    margin-top: 0; /* Elimina el margen superior */
+  }
+  
+  .header-image {
+    width: 100%; /* La imagen ocupa todo el ancho del encabezado */   
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%; /* Reduce el valor para subir el texto */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+   
+  }
+  .header-text ion-title { /* Target ion-title elements within header-text */
+    margin-bottom: 0.2em; /* Adjust spacing - decrease to get closer */
+  }
+  
+
+  
+  ion-content {
+    --background: white;
+  
+    .content-container {
+      padding: 27px;
+      ;
+
+    }
+  
+    .account-info-title {
+      font-size: 1.2em;
+      color: #333;
+      margin-bottom: 15px;
+    }
+  
+    .account-card {
+      background: rgba(0, 55, 183, 0.35); /* Azul con 50% de transparencia */
+      border-radius: 10px;
+      padding: 8px 20px; /* Reduce el padding vertical a 10px */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      
+  
+      h3 {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        margin-bottom: 15px;
+      }
+  
+      .account-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+  
+        .account-number,
+        .account-balance {
+          flex: 1;
+          text-align: center;
+          p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: -40px;
+          }
+        }
+  
+        .separator {
+          width: 1px;
+          height: 50px;
+          background-color: #90a4ae;
+        }
+      }
+    }
+  }
+  
+  ion-footer {
+    ion-toolbar {
+      --background: #1a237e; /* Dark Blue footer background */
+      --border-color: transparent;
+      color: white;
+      text-align: center;
+  
+      ion-buttons {
+        display: flex;
+        justify-content: space-around; /* Spread buttons evenly */
+        width: 100%;
+      }
+  
+      ion-button {
+        --color: white; /* Icon and label color */
+        width: 50%; /* Each button takes up half the footer */
+        font-weight: bold; /* Make the label bold */
+      }
+  
+      .footer-icon {
+        font-size: 1.5em;
+        margin-bottom: 5px; /* Space between icon and text */
+      }
+    }
+  }
+
+  .header-section {
+    .welcome-container {
+      display: flex;           /* Usa flexbox para organizar los elementos horizontalmente */
+      flex-direction: column; /* Apila los elementos verticalmente */
+      align-items: center;   /* Alinea los elementos a la izquierda */
+      margin-top: -15px;      /* Ajusta el margen superior para acercarlos */
+  
+    }
+  
+    .welcome-text {
+      font-size: 1em;        /* Ajusta el tamaño de la fuente si es necesario */
+      margin-bottom: 2px;   /* Reduce el espacio entre "Bienvenido/a" y el nombre */
+    }
+  
+    .username-text {
+      font-size: 1.5em;       /* Ajusta el tamaño de la fuente si es necesario */
+      margin-top: 0px;     /* Elimina el margen superior predeterminado del h1 */
+    }
+  }
+
+
+  .bottom-image {
+    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+    width: 80%;       /* Ancho relativo al contenedor */
+    opacity: 0.5;
+  }
+  
+
+  .footer-section {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 350px;
+  }
+  
+  .footer-image {
+    width: 100%;
+    display: block;
+    max-width: none;
+    height: auto;
+  }
+
+  /* CSS para el Footer Personalizado */
+.custom-footer {
+    position: fixed; /* Posicionamiento fijo en la parte inferior */
+    bottom: 0;       /* Pegado a la parte inferior */
+    left: 0;         /* Pegado al lado izquierdo */
+    width: 100%;     /* Ocupa todo el ancho */
+    background-color: #203D81; /* Fondo azul oscuro */
+    color: white;     /* Color del texto */
+    display: flex;    /* Usa flexbox para los botones */
+    justify-content: space-around; /* Espacio entre los botones */
+    align-items: center; /* Centrado verticalmente */
+    padding: 10px 0;   /* Espaciado interno */
+    z-index: 10;       /* Asegura que esté encima del contenido */
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .custom-footer ion-button {
+    --background: #203D81;
+    --color: white;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  .custom-footer ion-icon {
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+  }
+
+  /* CSS */
+
+.content-container {
+    padding: 10px; /* Reducido el padding del contenedor principal */
+}
+
+.account-info-title {
+    font-size: 1.2em;
+    color: #0037B7;
+    font-weight: bold;
+    margin-bottom: 10px; /* Reducido el margen inferior del título */
+    padding-left: 10px; /* Espacio a la izquierda del titulo */
+}
+
+.account-card {
+    background: rgba(0, 55, 183, 0.5);
+    border-radius: 10px;
+    padding: 10px; /* Reducido el padding interno de la tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; /* Espacio entre tarjetas */
+}
+
+.account-card h3 {
+    font-size: 1em; /* Reducido el tamaño del encabezado */
+    font-weight: bold;
+    color: #0037B7;
+    text-align: center;
+    margin-bottom: 5px; /* Reducido el margen inferior del encabezado */
+}
+
+.account-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alineación arriba */
+    padding: 5px 0; /* Reducido el padding en account-details */
+}
+
+.account-number,
+.account-balance {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 0; /* Asegura que no haya margen inferior */
+}
+
+.account-number p,
+.account-balance p {
+    margin: 0;
+    font-size: 0.8em; /* Tamaño fuente reducido para mejor visualización */
+    color: #0037B7;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2; /* Ajuste la altura de la línea */
+    margin-bottom: 0; /* Eliminado el margen inferior */
+}
+
+.separator {
+    width: 1px;
+    height: 40px; /* Ajustada la altura del separador */
+    background-color: #203D81;
+}

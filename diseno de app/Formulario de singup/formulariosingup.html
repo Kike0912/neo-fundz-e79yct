@@ -1,0 +1,53 @@
+<ion-content [fullscreen]="true">
+
+  <!-- Header -->
+  <div class="header-container">
+    <h1>¡Bienvenido a NeoFundz!</h1>
+    <p>Tu banco 100% digital</p>
+  </div>
+  <h2 class="login-title">Completa los siguientes datos</h2>
+  <!-- Form -->
+  <div class="login-form-section">  <!-- Añadimos la clase login-form-section aquí -->
+   
+
+    <ion-item lines="none" class="input-group-tight">
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none" class="input-group-tight">
+      <ion-label position="floating">Apellido</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none" class="input-group-tight select-container">
+      <ion-label>Género</ion-label>
+      <ion-select placeholder="Seleccionar">
+        <ion-select-option value="masculino">Masculino</ion-select-option>
+        <ion-select-option value="femenino">Femenino</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item lines="none" class="input-group-tight">
+      <ion-label position="floating"></ion-label>
+      <ion-input type="date"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label position="floating">Cédula (X-XXXX-XXXX)</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" color="primary">Siguiente</ion-button>
+  </div> <!-- Cerramos el div con la clase login-form-section -->
+
+  <!-- Logo -->
+  <div class="logo-section">
+    <img src="assets/icon/logo.png" alt="Logo" style="width: 130px;">
+  </div>
+
+  <!-- Footer -->
+  <div class="footer-section">
+    <img src="assets/icon/modalloginfi.png" alt="Pie de Página" class="footer-image">
+  </div>
+</ion-content>

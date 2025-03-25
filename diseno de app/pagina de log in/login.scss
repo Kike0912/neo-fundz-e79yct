@@ -1,0 +1,101 @@
+
+ion-content {
+    --background: #ffffff;
+    --box-sizing: border-box;
+  }
+  
+  .header-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    margin-top: 0; /* Elimina el margen superior */
+  }
+  
+  .header-image {
+    width: 100%; /* La imagen ocupa todo el ancho del encabezado */   
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 35%; /* Reduce el valor para subir el texto */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+    .login-title {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        margin-top: 70px;  /* Aumenta el margen superior */
+        font-weight: bold;
+      }
+  
+      .login-form-section {
+        background: white;
+        padding: 20px;
+        border-radius: 15px; /* Esquinas redondeadas */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Eliminamos la sombra */
+        margin-bottom: 20px;
+        margin-top: 20px; /* Ajustar posicion de formulario  */
+        border: 1px solid #ccc;  /* Contorno gris */
+        margin: 0 auto;              /* Centrar horizontalmente */
+        width: 90%;                 /* Ancho del formulario */
+
+      }
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1a237e;
+      font-weight: bold;
+    }
+  
+    ion-item {
+        margin-bottom: 15px;
+        --highlight-height: 0;
+        --border-color: #ccc;
+        --padding-start: 0;
+        --inner-padding-end: 0;
+      }
+      
+      ion-item ion-label {
+        padding-left: 15px; /* Añade relleno a la izquierda de la etiqueta */
+      }
+      
+      
+      ion-input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+      }
+    .signup-link {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 0.95em;
+  
+      a {
+        color: #1e88e5;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  
+    .logo-section {
+        text-align: center; /* Esto ya está, pero lo incluyo para claridad */
+        opacity: 0.8;
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically (optional, but good practice) */
+      }
+      
+      .logo-section img {
+        max-width: 100%; /* Make sure the image doesn't overflow its container */
+        height: auto;   /* maintain aspect ratio */
+      }

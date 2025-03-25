@@ -1,0 +1,119 @@
+/* Eliminar Estilos Innecesarios */
+ion-content {
+    --background: #ffffff;
+    --box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  /* Header Styling */
+  .header-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header-container h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+  }
+  
+  .header-container p {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .login-title {
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    /* Aumenta el margen superior */
+    font-weight: bold;
+  }
+  
+  /* Estilos del contenedor del formulario */
+  .login-form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    width: 85%; /* Reducir el ancho al 70% */
+    height: 55%;
+    max-width: 900px; /* Reducir el ancho máximo para pantallas grandes */
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a237e;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los ion-item */
+  ion-item {
+    --highlight-height: 0;
+    --border-color: #ccc;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+    margin-bottom: 5px; /* Ajusta el espaciado entre los ion-item */
+  }
+  
+  /* Alinear labels */
+  ion-item ion-label {
+    padding-left: 10px;
+  }
+  
+  /* Estilos para los ion-input */
+  ion-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .select-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: -1px; /* Ajusta el padding para que coincida con los inputs */
+  }
+  
+  .select-container ion-select {
+    padding-left: 10px;  /* Ajustar la posicion del texto */
+    padding-right: 10px;
+  }
+  
+ 
+  .signup-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 0.95em;
+  
+    a {
+      color: #1e88e5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+  
+  .logo-section {
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: -25px; /* add space before footer */
+  }
+  
+  .footer-section {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .footer-image {
+    width: 100%;
+    display: block;
+    max-width: none;
+    height: auto;
+  }

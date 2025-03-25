@@ -1,0 +1,53 @@
+.scan-id-page {
+    --background: #1DAA4C; /* Verde personalizado */  
+
+    .scan-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 20px;
+      text-align: left;
+      color: white; /* Texto blanco */
+    }
+  
+    h1 {
+      font-size: 1.8em; /* Un poco más grande */
+      font-weight: 300; /* Más ligero */
+      margin-bottom: 20px;
+      text-align: center;
+
+    }
+  
+    p {
+      font-size: 0.9em; /* Más pequeño */
+      line-height: 1.5; /* Mejor legibilidad */
+      margin-bottom: 20px;
+    }
+  
+    .id-icon-container {
+      width: 350px; /* Tamaño del círculo */
+      height:350px;
+      border-radius: 50%; /* Hacerlo un círculo */
+      background-color: white; /* Fondo blanco */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+  
+      img {
+        max-width: 67%; /* Tamaño del icono dentro del círculo */
+        max-height: 67%;
+      }
+    }
+  
+    .next-button {
+        color: #1DAA4C; /* Texto blanco */
+        --background: #1DAA4C; /* Fondo verde personalizado */
+        --background-hover: rgba(255, 255, 255, 0.8);
+        width: 80%; /* Ajusta el ancho del botón */
+        margin: 0 auto; /* Centrar el botón horizontalmente */
+      }
+  }
+

@@ -1,0 +1,37 @@
+<ion-content [fullscreen]="true">  <!-- Elimina la clase ion-padding -->
+
+  <!-- Sección del Encabezado con Imagen -->
+  <div class="header-section">
+    <img src="assets/icon/modalsingupfi.png" alt="Encabezado" class="header-image">  <!-- Imagen de Encabezado -->
+    <div class="header-text">
+      <h1>¡Bienvenido!</h1>
+      <p>A tu billetera digital sin límites</p>
+    </div>
+  </div>
+
+  <h2 class="login-title">Iniciar Sesión</h2>
+
+  <!-- Sección del Formulario de Inicio de Sesión (con tarjeta) -->
+  <div class="login-form-section">
+    
+    <ion-item lines="none">
+      <ion-label position="floating">Nombre de usuario</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" color="primary">Ingresar</ion-button>
+
+    <p class="signup-link">¿No tienes una cuenta? <br> Créala presionando <a href="#">Aquí</a></p>
+  </div>
+
+  <!-- Sección del Logo -->
+  <div class="logo-section">
+    <img src="assets/icon/logo.png" alt="Logo" style="width: 130px;">  <!-- Reemplaza con la ruta de tu imagen del logo -->
+  </div>
+
+</ion-content>
