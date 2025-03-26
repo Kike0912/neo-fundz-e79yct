@@ -277,4 +277,18 @@ ion-content {
   
   .logo-button:hover {
     opacity: 0.8; /* Similar a un botón, opcional */
+    }
+    /* tab2.page.scss */
+
+.logout-message {
+    position: fixed; /* Fixed position para que siempre esté visible */
+    top: 50%; /* Centrado verticalmente */
+    left: 50%; /* Centrado horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste fino para centrado perfecto */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    color: white; /* Texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 1.2em; /* Tamaño de la fuente */
+    z-index: 1001; /* Asegura que esté por encima de la alerta */
   }
