@@ -1,4 +1,3 @@
-
 ion-content {
     --background: #ffffff;
     --box-sizing: border-box;
@@ -246,3 +245,36 @@ ion-content {
     height: 40px; /* Ajustada la altura del separador */
     background-color: #203D81;
 }
+
+.header-section {
+    position: relative; /* Necesario para posicionar el botón de retroceso absolutamente */
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 30px; /* Ajusta la distancia desde la parte superior */
+    left: 25px; /* Ajusta la distancia desde la derecha */
+    font-size: 24px; /* Ajusta el tamaño del icono */
+    color: #fff; /* Ajusta el color del icono */
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  
+  /* Ejemplo de estilos adicionales para el botón de retroceso (opcional) */
+  .back-button:hover {
+    opacity: 0.8;
+  }
+  
+.logo-button {  /* Estilos para el logo */
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 52px;  /* Ajusta el ancho para que coincida con el tamaño del icono */
+    height: 40px; /* Ajusta la altura para que coincida con el tamaño del icono */
+    cursor: pointer;
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+  }
+  
+  .logo-button:hover {
+    opacity: 0.8; /* Similar a un botón, opcional */
+  }
