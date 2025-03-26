@@ -1,0 +1,65 @@
+.scan-id-page {
+    --background: #203D81; /* Verde personalizado */
+  
+    .scan-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 50px;
+      color: white; /* Texto blanco */
+    }
+  
+    h1 {
+      font-size: 1.8em; /* Un poco más grande */
+      font-weight: 300; /* Más ligero */
+      margin-bottom: 0px; /* Reduce el margen inferior para acercar el círculo */
+      text-align: center;
+    }
+  
+    .id-icon-container {
+      width: 350px; /* Tamaño del círculo */
+      height: 350px;
+      border-radius: 50%; /* Hacerlo un círculo */
+      background-color: white; /* Fondo blanco */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px; /* Reduce el margen superior para acercar el círculo */
+  
+      img {
+        max-width: 67%; /* Tamaño del icono dentro del círculo */
+        max-height: 67%;
+      }
+    }
+  
+    .next-button {
+      color: #1DAA4C; /* Texto blanco */
+      --background: #1DAA4C; /* Fondo verde personalizado */
+      --background-hover: rgba(255, 255, 255, 0.8);
+      width: 80%; /* Ajusta el ancho del botón */
+      margin: 0 auto; /* Centrar el botón horizontalmente */
+      margin-top: 50px; /* Aumenta este valor para bajar el botón */
+      /* top: 100%; Eliminado, no es necesario para márgenes */
+    }
+  }
+  
+  .overlay-image {
+    position: fixed;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: auto; /* Ajuste de altura */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinea en la parte superior */
+    z-index: 1000;
+  }
+  
+  .overlay-image img {
+    max-width: 110%;
+    max-height: 80%;
+    object-fit: contain;
+  }
