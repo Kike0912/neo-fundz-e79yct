@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true">
+  <!-- Sección del Encabezado con Imagen -->
+  <div class="header-section">
+    <ion-icon name="arrow-back-outline" class="back-button"></ion-icon>
+    <img src="assets/icon/logo de prueba.png" alt="Logo" class="logo-button">
+    <img src="assets/icon/modaldashboard.png" alt="Encabezado" class="header-image">
+    <div class="header-text">
+      <div class="welcome-container">
+        <h1 class="username-text">Recarga</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido Principal (Seleccionar Cuenta Origen) -->
+  <div class="transfer-origin-screen">
+    <div class="origin-container">
+      <h2>Seleccionar la cuenta para recargar:</h2>
+
+      <div class="account-selection">
+        <ion-item lines="none">
+          <ion-label position="floating"></ion-label>
+          <ion-select interface="popover" placeholder="Elige aqui  ">
+            <ion-select-option value="principal">*** 458 876</ion-select-option>
+          </ion-select>
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </ion-item>
+      </div>
+    </div>
+
+    <button class="transfer-button">Recargar</button>
+  </div>
+</ion-content>

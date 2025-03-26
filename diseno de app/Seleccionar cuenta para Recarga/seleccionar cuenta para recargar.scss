@@ -1,0 +1,134 @@
+/* transfer-screen.css */
+
+/* Estilos del Encabezado */
+.header-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    margin-top: 0;
+  }
+  
+  .header-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header-text .username-text {
+    /* target h1 here */
+    font-size: 1.5rem; /* Set a proper font size */
+    margin-bottom: 0.2em;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    opacity: 0.8;
+  }
+  
+  .logo-button {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 52px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .logo-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Estilos del Contenido Principal (Seleccionar Cuenta Origen) */
+  .transfer-origin-screen {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .origin-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #ccc;  /* Añade un borde gris */
+}
+  
+  .origin-container h2 {
+    font-size: 1.1em;
+    color: #203D81;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .account-selection {
+    margin-bottom: 20px;
+  }
+  
+  .account-selection ion-item {
+    --highlight-height: 0;
+    --border-color: #ccc;
+    --border-style: solid;
+    --border-width: 0 0 1px 0;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+  }
+  
+  .account-selection ion-item ion-label {
+    font-weight: bold;
+    color: #203D81;
+  }
+  
+  .account-selection ion-select {
+    font-size: 1em;
+    color: #555;
+    padding-left: 0;
+  }
+  
+  .account-selection ion-icon {
+    color: #555;
+    margin-left: auto;
+  }
+  
+  .transfer-button {
+    background-color: #203D81; /* Azul oscuro */
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  
+  .transfer-button:hover {
+    background-color: #2c3e50;
+  }
