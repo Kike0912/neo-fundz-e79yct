@@ -1,9 +1,7 @@
-
-<ion-content [fullscreen]="true">  <!-- Elimina la clase ion-padding -->
-
+<ion-content [fullscreen]="true">
   <!-- Sección del Encabezado con Imagen -->
   <div class="header-section">
-    <ion-icon name="arrow-back-outline" class="back-button" (click)="goBack()"></ion-icon> 
+    <ion-icon name="arrow-back-outline" class="back-button" (click)="confirmLogout()"></ion-icon> <!-- Cambiado a confirmLogout() -->
     <img src="assets/icon/logo de prueba.png" alt="Logo" class="logo-button" (click)="goToHome()"> <!-- Logo en la esquina derecha -->
     <img src="assets/icon/modaldashboard.png" alt="Encabezado" class="header-image">
     <div class="header-text">
@@ -49,5 +47,4 @@
     Transferir
   </ion-button>
 </div>
-
 
