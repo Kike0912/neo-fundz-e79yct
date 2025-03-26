@@ -1,0 +1,65 @@
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .loading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .loading-content p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .logo-spinner-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    /* background-color: #eee; Opcional: Un fondo para el círculo */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-image {
+    max-width: 60%;
+    max-height: 60%;
+    z-index: 1; /* El logo debe estar por encima del spinner */
+  }
+  
+  .loading-ring {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    border-top: 4px solid #3498db; /* Color del aro giratorio */
+    border-right: 4px solid #3498db; /* Color del aro giratorio */
+    animation: rotateRing 2s linear infinite; /* Anima el aro */
+  }
+  
+  @keyframes rotateRing {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  }
