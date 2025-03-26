@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true">
+  <!-- Sección del Encabezado con Imagen -->
+  <div class="header-section">
+    <ion-icon name="arrow-back-outline" class="back-button" ></ion-icon>
+    <img src="assets/icon/logo de prueba.png" alt="Logo" class="logo-button">
+    <img src="assets/icon/modaldashboard.png" alt="Encabezado" class="header-image">
+    <div class="header-text">
+      <div class="welcome-container">
+        
+        <h1 class="username-text">Transferencia </h1>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="login-title">Ingresa los detalles de la transferencia: </h2>
+  <!-- Sección del Formulario de Inicio de Sesión (con tarjeta) -->
+  <div class="login-form-section">
+    
+    <ion-item lines="none">
+      <ion-label position="floating">Numero de cuenta</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label position="floating">Nombre del propietario </ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-label position="floating">Descripción</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+ 
+    <ion-button expand="block"  class="custom-button">Siguiente</ion-button>
+   
+  </div>
+
+</ion-content>

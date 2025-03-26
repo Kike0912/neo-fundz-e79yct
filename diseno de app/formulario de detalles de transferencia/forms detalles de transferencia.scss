@@ -1,0 +1,132 @@
+/* transfer-screen.css */
+
+
+.header-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    margin-top: 0; /* Elimina el margen superior */
+  }
+  
+  .header-image {
+    width: 100%; /* La imagen ocupa todo el ancho del encabezado */   
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+  }
+  
+  .header-text {
+    position: absolute;
+    top: 50%; /* Reduce el valor para subir el texto */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+   
+  }
+  .header-text ion-title { /* Target ion-title elements within header-text */
+    margin-bottom: 0.2em; /* Adjust spacing - decrease to get closer */
+  }
+  
+  
+.header-section {
+    position: relative; /* Necesario para posicionar el botón de retroceso absolutamente */
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 30px; /* Ajusta la distancia desde la parte superior */
+    left: 25px; /* Ajusta la distancia desde la derecha */
+    font-size: 24px; /* Ajusta el tamaño del icono */
+    color: #fff; /* Ajusta el color del icono */
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+  
+  /* Ejemplo de estilos adicionales para el botón de retroceso (opcional) */
+  .back-button:hover {
+    opacity: 0.8;
+  }
+  
+.logo-button {  /* Estilos para el logo */
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    width: 52px;  /* Ajusta el ancho para que coincida con el tamaño del icono */
+    height: 40px; /* Ajusta la altura para que coincida con el tamaño del icono */
+    cursor: pointer;
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+  }
+  
+  .logo-button:hover {
+    opacity: 0.8; /* Similar a un botón, opcional */
+    }
+    /* tab2.page.scss */
+
+      
+  
+    .login-title {
+        text-align: center;
+        color: black;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        margin-top: 70px;  /* Aumenta el margen superior */
+        font-weight: bold;
+      }
+  
+      .login-form-section {
+        background: white;
+        padding: 20px;
+        border-radius: 15px; /* Esquinas redondeadas */
+        /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Eliminamos la sombra */
+        margin-bottom: 20px;
+        margin-top: 20px; /* Ajustar posicion de formulario  */
+        border: 1px solid #ccc;  /* Contorno gris */
+        margin: 0 auto;              /* Centrar horizontalmente */
+        width: 90%;                 /* Ancho del formulario */
+
+      }
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1a237e;
+      font-weight: bold;
+    }
+  
+    ion-item {
+        margin-bottom: 15px;
+        --highlight-height: 0;
+        --border-color: #ccc;
+        --padding-start: 0;
+        --inner-padding-end: 0;
+      }
+      
+      ion-item ion-label {
+        padding-left: 15px; /* Añade relleno a la izquierda de la etiqueta */
+      }
+      
+      
+      ion-input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      
+ .custom-button {
+    --background: #203D81;
+  }
+ 
+  .custom-button:hover{
+   --background: #203D81;
+  }
+
+  .login-title {
+   
+    margin-right: 80px;  /* Empuja el título 20px hacia la izquierda */
+    color: #203D81;
+    font-size: 1.0em;
+    margin-bottom: 20px;
+    margin-top: 70px;  /* Aumenta el margen superior */
+    font-weight: bold;
+  }
