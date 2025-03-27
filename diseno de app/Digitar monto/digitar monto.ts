@@ -50,8 +50,12 @@ export class Tab3Page {
     await alert.present();
   }
 
-  goToHome() {
-    this.router.navigate(['/home']);
+  goToHome() {   // Logo a tab2
+    this.router.navigate(['/tabs/tab2']);  // Asegúrate de que la ruta de tab2 es correcta.  Si no usas pestañas, cambia '/tabs/tab2' por la ruta correcta.
+  }
+
+  goBack() {   // Flecha de atrás
+    this.location.back();
   }
 
   validateAmount() {
