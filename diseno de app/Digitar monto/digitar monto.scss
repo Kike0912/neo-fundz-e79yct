@@ -49,14 +49,14 @@
   }
   
 .logo-button {  /* Estilos para el logo */
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    width: 52px;  /* Ajusta el ancho para que coincida con el tamaño del icono */
-    height: 40px; /* Ajusta la altura para que coincida con el tamaño del icono */
-    cursor: pointer;
-    z-index: 10; /* Asegura que esté por encima de otros elementos */
-  }
+  position: absolute;
+  top: 6px;
+  right: 25px;
+  width: 47px;  /* Ajusta el ancho para que coincida con el tamaño del icono */
+  height: 70px; /* Ajusta la altura para que coincida con el tamaño del icono */
+  cursor: pointer;
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
+}
   
   .logo-button:hover {
     opacity: 0.8; /* Similar a un botón, opcional */
@@ -140,3 +140,4 @@
   .custom-button:hover{
    --background: #203D81;
   }
+
